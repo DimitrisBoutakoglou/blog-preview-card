@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container{
+    margin: auto;
+    padding: 15px;
+    
+}
+
+.card{
+    border: 1px solid black;
+    width: 21em;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Figtree", sans-serif;
+    box-shadow: 7px 7px  black;
+}
+
+#art{
+    border-radius: 15px;
+}
+
+.card-text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#learning{
+    background-color: hsl(47, 88%, 63%);
+    width: 4em;
+    padding: 5px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+#published{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#main-text{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#info{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+    gap: 0.7em;
+    margin-top: 2em;
+}
+
+.attribution{
+    position: fixed;
+    width:100%;
+    bottom: 0px;
+}
