@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 body{
     width: 100vw;
     height: 100vh;
@@ -10,18 +12,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
 }
 
 .container{
-    margin: auto;
     padding: 15px;
-    
 }
 
 .card{
+    overflow: hidden;
+    margin: auto;
     border: 1px solid black;
-    width: 21em;
+    max-width: 21em;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
@@ -31,6 +32,7 @@ body{
 
 #art{
     border-radius: 15px;
+    width: 100%;
 }
 
 .card-text{
